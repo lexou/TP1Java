@@ -1,0 +1,67 @@
+EXERCICE 1
+
+2. Affiche directement System.out.println();
+
+3. Propose dans un menu déroulant toutes les méthodes qui commencent par 'toStr'
+
+4. Propose dans un menu déroulant les méthodes à implémenter dans une classe
+
+5. Propose les accesseurs et setters pour l'attribut foo
+   Propose toutes les méthodes commençant par "set" 
+
+6. Permet de renommer la classe
+
+
+EXERCICE 2
+
+1. On se trouve dans ce cas dans la même classe donc on peut avoir accès aux attributs x et y du       point p
+
+2. x et y sont définis Private donc ne sont pas accessibles hors de la classe Point. Il faut ajouter des accesseurs getX() et getY()
+
+3. Pour éviter que les autres classes aient accès à ces attributs et potentiellement les modifier involontairement
+
+4. Une méthode pour obtenir la valeur d'un attribut private lorsqu'on est en dehors de la classe.                             
+   On en a besoin quand on est dans TestPoint par exemple
+
+5. On ne peut plus utiliser le constructeur Point() sans paramètre
+
+6. Il y a conflit avec les noms des attributs de la classe Point
+
+7. On ajoute un attribut counter à la classe Point et on incrémente cet entier à dans le constructeur
+
+8. Le compilateur fait la différence entre le constructeur avec un seul paramètre et celui avec deux
+
+
+EXERCICE 3
+
+1. A la ligne 2 on copie les références de p1 dans celles de p2 et donc ils ont les même références. Ainsi, les références de p1 et p3 ne sont pas les mêmes
+
+3. Il considère que p3 n’est pas dans la liste 
+   La méthode indexOf utilise la méthode equals
+
+EXERCICE 4
+
+2. Il lève une exception si on dépasse la taille du tableau
+   On peut changer le tableau en ArrayList
+
+5. null n'est pas considéré comme un point
+
+6. On n'a pas besoin de PointCapacity parce que les LinkedList ont une gestion dynamique de leurs taille 
+
+
+EXERCICE 5
+
+5. Les valeurs des attributs du point p sont modifiées par la méthode translate
+   Il faut rendre les attributs final
+
+6. Il faut que les attributs de Circle soient final
+
+9. Il faut mettre un array de Circle pour pouvoir facilement les parcourir
+
+
+EXERCICE 6
+
+1. C'est une possibilité mais ce n'est pas nécessaire
+
+2. Le compilateur ne connait pas la méthode toString(Ring r), il faut donc la réécrire pour cette classe
+
